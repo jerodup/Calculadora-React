@@ -16,7 +16,7 @@ function App() {
       if (input) {
         setInput(evaluate(input));
       } else {
-        alert("Por favor ingrese una operación");
+        setInput("");
       }
     } catch (error) {
       setInput("syntax error");
